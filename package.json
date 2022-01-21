@@ -1,0 +1,27 @@
+{
+  "name": "wikistack",
+  "version": "1.0.0",
+  "description": "pairwork",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon /home/davruiz/Projects/wikistack/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DavRuiz07/wikistack-Pair.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavRuiz07/wikistack-Pair/issues"
+  },
+  "homepage": "https://github.com/DavRuiz07/wikistack-Pair#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "html-template-tag": "^3.2.0",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.1",
+    "sequelize": "^6.13.0"
+  }
+}
